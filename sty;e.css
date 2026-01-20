@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --main: #f8b864;
+    --bg:#f2f2f2;
+}
+body{font-family: "Jost", sans-serif;}
+.top{
+    background-color: var(--main) !important;
+    height: 40px !important;
+    position: fixed !important;
+    top: 0 !important;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+.home{margin-top: 100px;
+color: white;}
+.home b{
+    color: #f8b864;
+}
+.top p, .top i{
+   font-size: 15px !important;
+   font-weight: lighter !important;
+    
+}
+.my-nav{
+  
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.my-nav .nav-item a:hover{
+    color: var(--main);
+    transition: 0.3s;
+}
+.donet{
+    background-color: var(--main) !important;
+}
+.wrapper{
+    margin-top: 300px;
+}
+.cause{
+    background-color: var(--bg);
+    /* margin-top: 300px; */
+}
+.cause .content i,.campaigns i{
+    color: var(--main) !important;
+    
+}
+.cause .content .do-btn{
+    position: absolute;
+   left: 23%; 
+    background-color:#f8b86497 ;
+    margin-top: 10px;
+    padding: 10px ;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+  
+}
+.cause .content .btn2{left: 53%;}
+.cause .content .btn3{left: 83%;}
+.cause .content .do-btn:hover{
+    background-color: var(--main);
+    transition: 0.3s;
+}
+.cause .content img:hover ,.about img:hover ,.img :hover{
+    opacity: 0.8;
+    transition: 0.3s;
+
+}
+.cause .causes .bar, .campaigns .bar{
+animation: bar 0.7s ease-in-out 0s 1 normal forwards;
+ /* animation: bar linear; */
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%; 
+
+}
+ @keyframes bar {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{opacity: 0.5;}
+75%{opacity: 0.75;}
+    100%{
+        opacity: 1;
+    }
+    
+} 
+ /* @keyframes left {
+    from{
+        opacity: 0;
+        transform: translatex(-100px) ;
+    }
+    
+    to{
+
+        opacity: 1;
+        transform: translatex(0) ;
+    }
+} */
+.counter .content h2{
+    color: var(--main);
+}
+
+.stories .story .content:hover {
+    box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.20);
+    transform: scale(1.05);
+transition: 0.4s;
+}
+    
+.stories .story .content img:hover {
+    opacity: 1;
+    
+
+}
+footer {
+    background-color: #222;
+    background-image: url(./images/map.png);
+    background-position: right 150px center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+footer li,.form li{
+  list-style: none;
+}
+footer .c2 li:hover{
+    color: var(--main);
+    transition: 0.3s;
+   border-bottom: 1px solid var(--main);
+}
+footer .content i{
+    color: var(--main);
+}
+@media (max-width:1200px) {
+    .cause .content .do-btn{left: 18%;}
+.cause .content .btn2{left: 48%;}
+.cause .content .btn3{left: 80%;}
+}
+.volunteers .circle{
+    height: 460px;
+    width: 500px;
+  
+    opacity: 0.3;
+    z-index: 1;
+    position: absolute;
+}
+.volunteers .content{
+   z-index: 2;
+}
+.volunteers .content .images{
+   z-index: 5;
+}
+.volunteers .content .images img:hover{
+   transform: scale(1.1);
+   
+   transition: 0.3s;
+}
+
+
+.post:hover ,.button .button:hover{
+    box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.20);
+}
+
+.button.b2{
+    background-color: var(--main) !important;
+    color: white;
+}
+.button .button {
+    margin: 3px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    font-weight: bolder;
+    background-color: white;
+
+}
+
+
+
+
+
+
+/*  box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.15); */
+/*  border-right: 1px dashed #ddd; */
+
+/* {} */
