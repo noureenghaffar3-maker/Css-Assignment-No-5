@@ -1,0 +1,136 @@
+.top{
+    padding: 0;
+}
+ .first-slider .content{
+    margin: 0 !important;padding: 0 !important;
+ }
+.first-slider h1{
+    text-align: left;
+    margin: 0 !important;padding: 0 !important;
+}
+.first-slider p{
+   width: 100% !important;
+    padding: 20px 0 !important;
+     margin: 0 !important;
+      text-align: left;
+}
+/* .promo{
+     width: 80% !important;
+   
+}
+.my-slider{
+    
+    padding-top: 100px !important;
+     width: 95% !important;
+} */
+.wrapper{
+    margin-top: 600px;
+}
+.cause .text{
+    max-width: 600px;
+}
+
+.counter .content{
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 0;
+}
+.counter .counter{
+    padding: 0;margin: 0;
+}
+.events .causes{
+   flex-wrap: wrap;
+   
+}
+
+@media (max-width:993px) {
+.cause .content .btn2,.cause .content .btn3,.cause .content .do-btn{left: 53%;} 
+.form .content{
+    width: 80% !important;
+}
+.form{
+    min-height: 900px !important;
+
+}
+
+.form .c2 {
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: 30px !important;
+}
+.my-slider{
+    
+    padding-top: 140px !important;
+}
+.my-slider .content {
+    
+    padding-top: 500px !important;
+}
+}
+@media(max-width:700px) {
+  .wrapper{
+    margin-top: 670px;
+
+}  
+.form{
+    min-height: 1000px !important;
+
+}
+.form .main{
+    left: 0 !important;
+    right: 0 !important;
+
+    
+}
+.my-slider .content {
+    
+   display: inline;
+}
+.my-slider .content button ,.my-slider .content p{
+    display: none;
+}
+.volunteers .circle{
+height: 200px;
+width: 200px;
+
+}
+.my-slider .content{
+    
+  display: inline !important;
+}
+
+.cause .content .btn2,.cause .content .btn3,.cause .content .do-btn{left: 65%;}
+}
+@media (max-width:500px) {
+    .form{
+    min-height: 1150px !important;
+
+}
+.form .main{
+   padding: 10px !important;
+   
+}
+.form #text{
+    width: 100% !important;
+}
+
+}
+@media(max-width:450px) {
+  .wrapper{
+    margin-top: 750px;
+}  
+.cause .content .btn2,.cause .content .btn3,.cause .content .do-btn{left: 50%;}
+.events .causes .content{
+   flex-direction: column;
+   
+}
+
+.events .causes .content img{
+   width: 100% !important;
+   
+}
+.wrapper{
+    margin-top: 800px !important;
+}
+
+}
